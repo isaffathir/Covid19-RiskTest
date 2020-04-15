@@ -48,17 +48,22 @@
             }
 
             .title {
-                font-size: 84px;
+                font-size: 50px;
                 color: #ffffff;
             }
             .isi{
                 color: #ffffff;
             }
-
+            .tombol2{
+                padding-top: 30px;
+                padding-bottom : 50px;
+                
+            
+            }
             .links > a {
                 color: #636b6f;
                 padding: 0 25px;
-                font-size: 13px;
+                
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
@@ -87,11 +92,15 @@
                     <h3>Ayo ikut serta berpartisipasi dalam kegiatan mengenali lebih lanjut resiko terkena COVID - 19</h3>
                     <h4>AYO SEBELUM TERLAMBAT !!</h4>
                 </div>
-
+                
                 <div class="links">
+                    <div class="tombol1">
+                    <a href="/form"><button class="btn btn-light btn-lg">AYO MULAI !</button></a>
+                </div>
+                    <div class="tombol2">
+                    <a href="/kuisioner"><button class="btn btn-danger btn-sm">LIST PARTISIPAN</button></a>
+                    </div>
                     
-                    <a href="/kuisioner"><button class="btn btn-danger">LIST PARTISIPAN</button></a>
-                    <a href="/form"><button class="btn btn-success">AYO MULAI !</button></a>
                 </div>
             </div>
         </div>
