@@ -1,0 +1,69 @@
+.form-body{
+    height: 100vh;
+    overflow: hidden;
+}
+.form-section{
+    height: 100vh;
+    position: relative;
+    background-image: url("../images/banner.png");
+}
+
+
+.form-section .form-content{
+    background: rgba(155, 206, 240, 0.685);
+    padding: 30px;
+    border-radius: 12px;
+}
+.judul{
+    position: relative;
+    height: 100px;
+
+    color:#ffffff;
+}
+.kepala1{
+    font-size: 20px;
+    color: #ffffff;
+}
+.kepala{
+    font-size: 20px;
+    background-color: cornflowerblue;
+    color:  #ffffff;
+    border-radius: 18px;
+}
+.col-sm-2{
+    font-size: 33px;
+    bottom: 15px;
+   
+}
+.col-sm-8{
+    padding-left: 60px;
+    left: 80px;
+    padding-right: 10px;
+
+}
+.col-sm-3{
+    padding-left: 30px;
+    left: 110px;
+}
+
+.badan{
+    background-color: rgba(57, 132, 182, 0.5);
+    font-size: 18px;
+    color: #ffffff;
+    
+}
+.form-content .form-group label{
+    color: #ffffff;
+}
+.question-section{
+    height: 100vh;
+    overflow-y: auto;
+    background-color: #fefefe;
+    background-image: url("../images/banner.png");
+}
+
+.judul{
+    font-size: 35px;
+    padding-left: 50px;
+    
+}
